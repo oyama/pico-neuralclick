@@ -1,6 +1,6 @@
 # Raspberry Pi Pico GPIO State Inference with Neural Networks
 
-This repository demonstrates a Deep Neural Network inference model created in TensorFlow, converted to a TensorFlow Lite micro model, and run on a Raspberry Pi Pico. The model is designed to analyze the data of incoming button clicks and classify them into three states: single click, double click, and no action. The training data for each state is a time series of button operation states sampled at 32 Hz, with only 10 events per condition.
+This repository demonstrates a Deep Neural Network inference model created in TensorFlow, converted to a TensorFlow Lite for Microcontrollers model, and run on a Raspberry Pi Pico. The model is designed to analyze the data of incoming button clicks and classify them into three states: single click, double click, and no action. The training data for each state is a time series of button operation states sampled at 32 Hz, with only 10 events per condition.
 
 ## Features
 

@@ -82,7 +82,7 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE
 ## Acknowledgements
 
 - [TensorFlow](https://www.tensorflow.org/)
-- [TensorFlow Lite Micro](https://www.tensorflow.org/lite/microcontrollers)
+- [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
 - [pico-tflmicro](https://github.com/raspberrypi/pico-tflmicro)
 - [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 - [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk)

@@ -53,7 +53,26 @@ The input is a time series of GPIO states sampled at 32 Hz. For example:
 The output will classify the input into one of the three states:
 
 ```
-Nop 0.000, Single click 0.250, Double click 0.750 -> Predicted label: Double click
+Nop 1.00, Single click 0.00, Double click 0.00 -> Predicted label: Nop
+Nop 1.00, Single click 0.00, Double click 0.00 -> Predicted label: Nop
+Nop 1.00, Single click 0.00, Double click 0.00 -> Predicted label: Nop
+Nop 0.00, Single click 1.00, Double click 0.00 -> Predicted label: Single click
+Nop 0.00, Single click 1.00, Double click 0.00 -> Predicted label: Single click
+Nop 0.00, Single click 0.00, Double click 1.00 -> Predicted label: Double click
+Nop 0.00, Single click 0.00, Double click 1.00 -> Predicted label: Double click
+Nop 0.00, Single click 0.00, Double click 1.00 -> Predicted label: Double click
+Nop 0.00, Single click 0.91, Double click 0.09 -> Predicted label: Single click
+Nop 0.00, Single click 0.99, Double click 0.01 -> Predicted label: Single click
+Nop 0.00, Single click 0.01, Double click 0.99 -> Predicted label: Double click
+Nop 0.00, Single click 0.00, Double click 1.00 -> Predicted label: Double click
+Nop 0.00, Single click 0.03, Double click 0.97 -> Predicted label: Double click
+Nop 0.00, Single click 0.07, Double click 0.93 -> Predicted label: Double click
+Nop 0.00, Single click 0.01, Double click 0.99 -> Predicted label: Double click
+Nop 0.00, Single click 0.27, Double click 0.73 -> Predicted label: Double click
+Nop 0.00, Single click 1.00, Double click 0.00 -> Predicted label: Single click
+Nop 1.00, Single click 0.00, Double click 0.00 -> Predicted label: Nop
+Nop 1.00, Single click 0.00, Double click 0.00 -> Predicted label: Nop
+Nop 1.00, Single click 0.00, Double click 0.00 -> Predicted label: Nop
 ```
 
 ## License

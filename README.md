@@ -26,7 +26,7 @@ Build the firmware for the Raspberry Pi Pico that performs the inference:
 
 ```bash
 git submodule update --init
-mkdir build && cd build
+mkdir build; cd build
 PICO_SDK_PATH=/path/to/pico-sdk cmake ..
 make
 ```
